@@ -100,9 +100,9 @@ export default class App extends Component {
         </View>
         <View style={{ height: 17, backgroundColor: '#F2F2F4', marginTop: 20 }}></View>
         {/* NEWS SECTION */}
-        <View>
+        <View style={{ paddingTop: 16, paddingHorizontal: 16 }}>
           <View>
-            <Image source={require('./dummy/sepak-bola.jpg')} style={{ height: 200 }}/>
+            <Image source={require('./dummy/sepak-bola.jpg')} style={{ height: 170 }}/>
           </View>
           <View>
             <Text>GO-NEWS</Text>
